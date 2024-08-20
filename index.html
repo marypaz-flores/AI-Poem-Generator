@@ -4,39 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here.</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem"></div>
+      </main>
 
-    <footer>
-      This project was coded by Marypaz Flores and is open-sourced on
-      <a
-        href="https://github.com/marypaz-flores/AI-Poem-Generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://poem-generator-amfm.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/marypaz-flores" target="_blank"
+          >Marypaz Flores</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/marypaz-flores/AI-Poem-Generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://poem-generator-amfm.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="JS/index.js"></script>
   </body>

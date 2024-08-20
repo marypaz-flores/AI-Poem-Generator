@@ -1,3 +1,82 @@
 body {
   background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+  text-align: center;
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+form {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid white;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 30px;
+  line-height: 20px;
+  color: darkgray;
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #ac5389;
+  border: none;
+  width: 150px;
+  border-radius: 30px;
+  padding: 14px 24px;
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  color: #3d1153;
+}
+
+.poem {
+  font-size: 18px;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid #3d1153;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  color: rgb(204, 197, 197);
 }
