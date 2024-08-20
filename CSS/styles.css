@@ -1,6 +1,5 @@
 body {
   background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
-  text-align: center;
   font-family: "Playwrite DK Uloopet", cursive;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -27,13 +26,23 @@ h1 {
   color: white;
 }
 
-form {
-  padding: 30px;
+.form-container {
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  display: flex;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 
 .instructions {
@@ -72,6 +81,11 @@ form {
   border-left: 3px solid #3d1153;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   background-color: white;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem strong {
@@ -86,4 +100,19 @@ footer {
   font-size: 13px;
   margin-top: 30px;
   color: rgb(204, 197, 197);
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
