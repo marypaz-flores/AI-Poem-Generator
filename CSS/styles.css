@@ -75,9 +75,10 @@ form {
 }
 
 .poem strong {
-  justify-content: right;
+  text-align: right;
   font-size: 15px;
-  color: #3d1153;
+  color: #ac5389;
+  display: block;
 }
 
 footer {
